@@ -1,0 +1,16 @@
+@use  'sass:math';
+@mixin badge($color:$red){
+    border-radius: $border* 3;
+    background-color: $color;
+    padding: 2px 4px;
+    font-size: small;
+    font-weight: 200;
+}
+.badge{
+    @include badge
+}
+@each $key , $value in $color {
+    .badge-#{$key}{
+        @include badge($value)
+    }
+}

@@ -1,0 +1,23 @@
+.card{
+    display: block;
+    padding: $padding;
+    border: $border solid rgb(213, 206, 206);
+    box-shadow: 1rem;
+    border-radius: .3rem;
+    .card-title{
+        font-size:1rem ;
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+    .card-body{
+        font-size: 1rem;
+
+        a {
+          text-decoration: underline;
+        }
+    }
+    .card-footer{
+        color: rgb(215, 199, 199);
+        font-size: 1.2rem;
+    }
+}

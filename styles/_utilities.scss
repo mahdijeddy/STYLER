@@ -1,0 +1,70 @@
+@use  'sass:math';
+@for $i from 1 through 5 {
+    .p-#{$i}{
+        padding: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .m-#{$i}{
+        margin: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .pr-#{$i}{
+        padding-right: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .pl-#{$i}{
+        padding-left: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .pt-#{$i}{
+        padding-top: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .pb-#{$i}{
+        padding-bottom: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .mt-#{$i}{
+        margin-top: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .mr-#{$i}{
+        margin-right: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .ml-#{$i}{
+        margin-left: $i * $padding;
+    }
+}
+@for $i from 1 through 5 {
+    .mb-#{$i}{
+        margin-bottom: $i * $padding;
+    }
+}
+@for $i from 1 through 10 {
+    .o-#{$i}{
+        opacity: math.div($i , 10);}
+}
+@for $i from 1 through 10 {
+    .radius-#{$i}{
+        border-radius: math.div($border * $i , 10);}
+}
+.rounded{
+    border-radius: 50%;
+}
+
+$disp : none,block, flex, inline, inline-block;
+
+@each $key in $disp {
+    .d-#{$key}{
+        display: $key;
+    }
+}

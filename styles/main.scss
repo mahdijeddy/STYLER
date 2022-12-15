@@ -1,5 +1,6 @@
 // variables
 @import 'variables';
+@import 'colors';
 
 //resets
 @import 'config';
@@ -8,4 +9,13 @@
 @import 'breakpoints';
 @import 'GRID';
 
+
+//utilities
+@import 'utilities' ;
+
+//components
+@import './card';
+@import 'navbar';
+@import './note';
+@import './btn';
 

@@ -26,7 +26,7 @@ $screens : (
     }
 };
 @mixin xlg {
-    @media (min-width : map-get($screens , 'sxlg')){
+    @media (min-width : map-get($screens , 'xlg')){
         @content
     }
 };

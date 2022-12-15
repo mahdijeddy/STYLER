@@ -1,15 +1,16 @@
 //-------------------colors-------------------//
-$color:(
-    "primary": rgb(120, 0, 226),
-    "secondary": rgb(111, 109, 109),
+$colors:(
+    "primary": rgb(133, 46, 209),
+    "secondary": rgb(108, 108, 108),
     "info": rgb(0, 200, 255),
-    "blue": #171dd1,
+    "blue": #252be2,
     "red": #d81c1c,
     "yellow": #e0e014,
     "green": #14dc2e,
     "orange": #ffb429,
     "black": black,
     "white": white,
+    "light": rgb(193, 191, 191),
 );
 
 //------------------var
@@ -17,3 +18,4 @@ $padding : 1rem;
 $margin : 1rem;
 $border : 1rem;
 $fontSize : 1rem;
+
