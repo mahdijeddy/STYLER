@@ -1,0 +1,80 @@
+@use "sass:math";
+.container{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+$gridCols : 16 ; 
+$grid-gaps:(
+    "0" : 0,
+    "1" : .8rem, 
+    "2" : 1rem, 
+    "3" : 1.5rem, 
+    "4" : 1.8rem, 
+    "5" : 2.2rem, 
+);
+$justifyItems:flex-start, flex-end, center, space-between, space-around;
+@each $key , $value in $grid-gaps {
+    .gap-#{$key} > *{
+        padding: $value;
+    }
+  
+}
+@each $value in $justifyItems {
+    .justify-content-#{$value}{
+        justify-content: $value;
+    }
+};
+
+@include s {
+    @for $i from 1 through $gridCols{
+        .col-#{$i}-s{
+            box-sizing: border-box;
+            flex-grow: 0;
+            width: math.div(100% * $i , $gridCols) !important;
+        }
+    }
+}
+@include sm {
+    @for $i from 1 through $gridCols{
+        .col-#{$i}-sm{
+            box-sizing: border-box;
+            flex-grow: 0;
+            width: math.div(100% * $i , $gridCols) !important;
+        }
+    }
+}
+@include md {
+    @for $i from 1 through $gridCols{
+        .col-#{$i}-md{
+            box-sizing: border-box;
+            flex-grow: 0;
+            width: math.div(100% * $i , $gridCols) !important;
+        }
+    }
+}
+@include lg {
+    @for $i from 1 through $gridCols{
+        .col-#{$i}-lg{
+            box-sizing: border-box;
+            flex-grow: 0;
+            width: math.div(100% * $i , $gridCols) !important;
+        }
+    }
+}
+@include xlg {
+    @for $i from 1 through $gridCols{
+        .col-#{$i}-xlg{
+            box-sizing: border-box;
+            flex-grow: 0;
+            width: math.div(100% * $i , $gridCols) !important;
+        }
+    }
+}
+
