@@ -2,99 +2,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .text-primary {
-  color: rgb(133, 46, 209);
+  color: rgb(144, 38, 236);
 }
 
 .hover-text-primary:hover {
-  color: rgb(133, 46, 209);
+  color: rgb(144, 38, 236);
 }
 
 .bg-primary {
-  background-color: rgb(133, 46, 209);
+  background-color: rgb(144, 38, 236);
 }
 
 .text-secondary {
-  color: rgb(108, 108, 108);
+  color: rgb(92, 92, 92);
 }
 
 .hover-text-secondary:hover {
-  color: rgb(108, 108, 108);
+  color: rgb(92, 92, 92);
 }
 
 .bg-secondary {
-  background-color: rgb(108, 108, 108);
+  background-color: rgb(92, 92, 92);
 }
 
 .text-info {
-  color: rgb(0, 200, 255);
+  color: rgb(0, 225, 255);
 }
 
 .hover-text-info:hover {
-  color: rgb(0, 200, 255);
+  color: rgb(0, 225, 255);
 }
 
 .bg-info {
-  background-color: rgb(0, 200, 255);
+  background-color: rgb(0, 225, 255);
 }
 
 .text-blue {
-  color: #252be2;
+  color: #363bde;
 }
 
 .hover-text-blue:hover {
-  color: #252be2;
+  color: #363bde;
 }
 
 .bg-blue {
-  background-color: #252be2;
+  background-color: #363bde;
 }
 
 .text-red {
-  color: #d81c1c;
+  color: #f93b3b;
 }
 
 .hover-text-red:hover {
-  color: #d81c1c;
+  color: #f93b3b;
 }
 
 .bg-red {
-  background-color: #d81c1c;
+  background-color: #f93b3b;
 }
 
 .text-yellow {
-  color: #e0e014;
+  color: #ffff0a;
 }
 
 .hover-text-yellow:hover {
-  color: #e0e014;
+  color: #ffff0a;
 }
 
 .bg-yellow {
-  background-color: #e0e014;
+  background-color: #ffff0a;
 }
 
 .text-green {
-  color: #14dc2e;
+  color: #0bff2c;
 }
 
 .hover-text-green:hover {
-  color: #14dc2e;
+  color: #0bff2c;
 }
 
 .bg-green {
-  background-color: #14dc2e;
+  background-color: #0bff2c;
 }
 
 .text-orange {
-  color: #ffb429;
+  color: #ffb52c;
 }
 
 .hover-text-orange:hover {
-  color: #ffb429;
+  color: #ffb52c;
 }
 
 .bg-orange {
-  background-color: #ffb429;
+  background-color: #ffb52c;
 }
 
 .text-black {
@@ -122,15 +122,15 @@
 }
 
 .text-light {
-  color: rgb(193, 191, 191);
+  color: rgb(240, 240, 240);
 }
 
 .hover-text-light:hover {
-  color: rgb(193, 191, 191);
+  color: rgb(240, 240, 240);
 }
 
 .bg-light {
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(240, 240, 240);
 }
 
 * {
@@ -152,7 +152,7 @@ a {
 .container {
   width: 100vw;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   box-sizing: border-box;
 }
 
@@ -203,6 +203,26 @@ a {
 
 .justify-content-space-around {
   justify-content: space-around;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-baseline {
+  align-items: baseline;
 }
 
 @media (min-width: 0) {
@@ -919,6 +939,26 @@ a {
   display: inline-block;
 }
 
+.font-1 {
+  font-size: 1rem;
+}
+
+.font-2 {
+  font-size: 1.5rem;
+}
+
+.font-3 {
+  font-size: 2rem;
+}
+
+.font-4 {
+  font-size: 2.5rem;
+}
+
+.font-5 {
+  font-size: 3rem;
+}
+
 .card {
   display: block;
   padding: 1rem;
@@ -956,47 +996,48 @@ a {
 }
 .navbar .navbar-brand, .navbar-light .navbar-brand, .navbar-white .navbar-brand, .navbar-black .navbar-brand, .navbar-orange .navbar-brand, .navbar-green .navbar-brand, .navbar-yellow .navbar-brand, .navbar-red .navbar-brand, .navbar-blue .navbar-brand, .navbar-info .navbar-brand, .navbar-secondary .navbar-brand, .navbar-primary .navbar-brand {
   font-family: "Rubik Gemstones";
-  font-size: 2.2 rem;
+  font-size: 2rem;
 }
 .navbar .navbar-items, .navbar-light .navbar-items, .navbar-white .navbar-items, .navbar-black .navbar-items, .navbar-orange .navbar-items, .navbar-green .navbar-items, .navbar-yellow .navbar-items, .navbar-red .navbar-items, .navbar-blue .navbar-items, .navbar-info .navbar-items, .navbar-secondary .navbar-items, .navbar-primary .navbar-items {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-size: 1.4rem;
 }
 .navbar .navbar-items > *, .navbar-light .navbar-items > *, .navbar-white .navbar-items > *, .navbar-black .navbar-items > *, .navbar-orange .navbar-items > *, .navbar-green .navbar-items > *, .navbar-yellow .navbar-items > *, .navbar-red .navbar-items > *, .navbar-blue .navbar-items > *, .navbar-info .navbar-items > *, .navbar-secondary .navbar-items > *, .navbar-primary .navbar-items > * {
   margin: 0 5px;
 }
 
 .navbar-primary {
-  background-color: rgb(133, 46, 209);
+  background-color: rgb(144, 38, 236);
 }
 
 .navbar-secondary {
-  background-color: rgb(108, 108, 108);
+  background-color: rgb(92, 92, 92);
 }
 
 .navbar-info {
-  background-color: rgb(0, 200, 255);
+  background-color: rgb(0, 225, 255);
 }
 
 .navbar-blue {
-  background-color: #252be2;
+  background-color: #363bde;
 }
 
 .navbar-red {
-  background-color: #d81c1c;
+  background-color: #f93b3b;
 }
 
 .navbar-yellow {
-  background-color: #e0e014;
+  background-color: #ffff0a;
 }
 
 .navbar-green {
-  background-color: #14dc2e;
+  background-color: #0bff2c;
 }
 
 .navbar-orange {
-  background-color: #ffb429;
+  background-color: #ffb52c;
 }
 
 .navbar-black {
@@ -1008,7 +1049,103 @@ a {
 }
 
 .navbar-light {
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(240, 240, 240);
+}
+
+.badge {
+  border-radius: 3rem;
+  background-color: red;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-primary {
+  border-radius: 3rem;
+  background-color: rgb(144, 38, 236);
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-secondary {
+  border-radius: 3rem;
+  background-color: rgb(92, 92, 92);
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-info {
+  border-radius: 3rem;
+  background-color: rgb(0, 225, 255);
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-blue {
+  border-radius: 3rem;
+  background-color: #363bde;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-red {
+  border-radius: 3rem;
+  background-color: #f93b3b;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-yellow {
+  border-radius: 3rem;
+  background-color: #ffff0a;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-green {
+  border-radius: 3rem;
+  background-color: #0bff2c;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-orange {
+  border-radius: 3rem;
+  background-color: #ffb52c;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-black {
+  border-radius: 3rem;
+  background-color: black;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-white {
+  border-radius: 3rem;
+  background-color: white;
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.badge-light {
+  border-radius: 3rem;
+  background-color: rgb(240, 240, 240);
+  padding: 2px 4px;
+  font-size: small;
+  font-weight: 200;
 }
 
 .note {
@@ -1037,10 +1174,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(133, 46, 209);
+  background-color: rgb(144, 38, 236);
 }
 .btn-primary:hover {
-  background-color: #964bd7;
+  background-color: #a147ef;
 }
 
 .btn-outline-primary {
@@ -1051,10 +1188,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid rgb(133, 46, 209);
+  border: 1rem solid rgb(144, 38, 236);
 }
 .btn-outline-primary:hover {
-  background-color: rgb(133, 46, 209);
+  background-color: rgb(144, 38, 236);
 }
 
 .btn-secondary {
@@ -1064,10 +1201,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(108, 108, 108);
+  background-color: rgb(92, 92, 92);
 }
 .btn-secondary:hover {
-  background-color: #7e7e7e;
+  background-color: #6e6e6e;
 }
 
 .btn-outline-secondary {
@@ -1078,10 +1215,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid rgb(108, 108, 108);
+  border: 1rem solid rgb(92, 92, 92);
 }
 .btn-outline-secondary:hover {
-  background-color: rgb(108, 108, 108);
+  background-color: rgb(92, 92, 92);
 }
 
 .btn-info {
@@ -1091,10 +1228,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(0, 200, 255);
+  background-color: rgb(0, 225, 255);
 }
 .btn-info:hover {
-  background-color: #24d0ff;
+  background-color: #24e5ff;
 }
 
 .btn-outline-info {
@@ -1105,10 +1242,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid rgb(0, 200, 255);
+  border: 1rem solid rgb(0, 225, 255);
 }
 .btn-outline-info:hover {
-  background-color: rgb(0, 200, 255);
+  background-color: rgb(0, 225, 255);
 }
 
 .btn-blue {
@@ -1118,10 +1255,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #252be2;
+  background-color: #363bde;
 }
 .btn-blue:hover {
-  background-color: #454ae6;
+  background-color: #5559e3;
 }
 
 .btn-outline-blue {
@@ -1132,10 +1269,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid #252be2;
+  border: 1rem solid #363bde;
 }
 .btn-outline-blue:hover {
-  background-color: #252be2;
+  background-color: #363bde;
 }
 
 .btn-red {
@@ -1145,10 +1282,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #d81c1c;
+  background-color: #f93b3b;
 }
 .btn-red:hover {
-  background-color: #e53333;
+  background-color: #fa5e5e;
 }
 
 .btn-outline-red {
@@ -1159,10 +1296,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid #d81c1c;
+  border: 1rem solid #f93b3b;
 }
 .btn-outline-red:hover {
-  background-color: #d81c1c;
+  background-color: #f93b3b;
 }
 
 .btn-yellow {
@@ -1172,10 +1309,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #e0e014;
+  background-color: #ffff0a;
 }
 .btn-yellow:hover {
-  background-color: #ecec2c;
+  background-color: #ffff2e;
 }
 
 .btn-outline-yellow {
@@ -1186,10 +1323,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid #e0e014;
+  border: 1rem solid #ffff0a;
 }
 .btn-outline-yellow:hover {
-  background-color: #e0e014;
+  background-color: #ffff0a;
 }
 
 .btn-green {
@@ -1199,10 +1336,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #14dc2e;
+  background-color: #0bff2c;
 }
 .btn-green:hover {
-  background-color: #28eb42;
+  background-color: #2fff4b;
 }
 
 .btn-outline-green {
@@ -1213,10 +1350,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid #14dc2e;
+  border: 1rem solid #0bff2c;
 }
 .btn-outline-green:hover {
-  background-color: #14dc2e;
+  background-color: #0bff2c;
 }
 
 .btn-orange {
@@ -1226,10 +1363,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #ffb429;
+  background-color: #ffb52c;
 }
 .btn-orange:hover {
-  background-color: #ffc14d;
+  background-color: #ffc250;
 }
 
 .btn-outline-orange {
@@ -1240,10 +1377,10 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid #ffb429;
+  border: 1rem solid #ffb52c;
 }
 .btn-outline-orange:hover {
-  background-color: #ffb429;
+  background-color: #ffb52c;
 }
 
 .btn-black {
@@ -1307,10 +1444,10 @@ a {
   border: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(240, 240, 240);
 }
 .btn-light:hover {
-  background-color: #d3d1d1;
+  background-color: white;
 }
 
 .btn-outline-light {
@@ -1321,8 +1458,8 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
-  border: 1rem solid rgb(193, 191, 191);
+  border: 1rem solid rgb(240, 240, 240);
 }
 .btn-outline-light:hover {
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(240, 240, 240);
 }/*# sourceMappingURL=main.css.map */

@@ -11,12 +11,13 @@
     box-shadow: 1px 4px 7px rgba(14, 13, 13, 0.1);
     .navbar-brand{
         font-family: $markFont;
-        font-size: 2.2 rem;
+        font-size: 2rem;
     };
     .navbar-items{
        display: flex;
        align-items: center;
     justify-content: flex-end;
+    font-size: 1.4rem;
     >*{
         margin:0 5px;
         

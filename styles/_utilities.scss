@@ -67,4 +67,10 @@ $disp : none,block, flex, inline, inline-block;
     .d-#{$key}{
         display: $key;
     }
+};
+
+@each $v ,$k in $fontSizes {
+    .font-#{$v}{
+        font-size: $k;
+    }
 }

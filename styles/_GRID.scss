@@ -2,7 +2,7 @@
 .container{
     width: 100vw;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 3rem;
     box-sizing: border-box;
     
 }
@@ -20,6 +20,7 @@ $grid-gaps:(
     "5" : 2.2rem, 
 );
 $justifyItems:flex-start, flex-end, center, space-between, space-around;
+$alignItems:flex-start, flex-end, center, stretch , baseline;
 @each $key , $value in $grid-gaps {
     .gap-#{$key} > *{
         padding: $value;
@@ -30,6 +31,13 @@ $justifyItems:flex-start, flex-end, center, space-between, space-around;
     .justify-content-#{$value}{
         justify-content: $value;
     }
+    
+};
+@each $value in $alignItems {
+    .align-items-#{$value}{
+       align-items: $value;
+    }
+
 };
 
 @include s {

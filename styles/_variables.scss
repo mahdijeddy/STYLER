@@ -1,16 +1,23 @@
 //-------------------colors-------------------//
 $colors:(
-    "primary": rgb(133, 46, 209),
-    "secondary": rgb(108, 108, 108),
-    "info": rgb(0, 200, 255),
-    "blue": #252be2,
-    "red": #d81c1c,
-    "yellow": #e0e014,
-    "green": #14dc2e,
-    "orange": #ffb429,
+    "primary": rgb(144, 38, 236),
+    "secondary": rgb(92, 92, 92),
+    "info": rgb(0, 225, 255),
+    "blue": #363bde,
+    "red": #f93b3b,
+    "yellow": #ffff0a,
+    "green": #0bff2c,
+    "orange": #ffb52c,
     "black": black,
     "white": white,
-    "light": rgb(193, 191, 191),
+    "light": rgb(240, 240, 240),
+);
+$fontSizes :(
+    "1":1rem,
+    "2":1.5rem,
+    "3":2rem,
+    "4":2.5rem,
+    "5":3rem,
 );
 
 //------------------var
