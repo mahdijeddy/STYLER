@@ -1,0 +1,23 @@
+.menuD{
+
+    position: absolute;
+    right: 0;
+    top: 6.2rem;
+    width: 20rem;
+    height: calc(100vh - 100px);
+    transition: all 0.7s;
+}
+.menu{
+    position: absolute;
+    top: 6.2rem;
+    width: 20rem;
+    height: calc(100vh - 100px);
+    transition: all 0.5s;
+    transform: translateX(20rem);
+}
+.body{
+    background-color: black;
+}
+.dayticon{
+    display: none
+}

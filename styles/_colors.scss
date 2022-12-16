@@ -5,6 +5,7 @@
     .hover-text-#{$key}{
         &:hover{
             color: $value;
+            cursor: pointer;
         }
     }
     .bg-#{$key}{

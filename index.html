@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>styler-mahdi</title>
 </head>
-<body>
+<body dir="rtl">
+    <div class="menu bg-primary text-light">
+        <ul class=" d-flex flex-column ">
+            <a class="p-1 hover-text-white ">مقدمه</a>
+            <a class="p-1 hover-text-white ">کامپوننت ها</a>
+            <a class="p-1 hover-text-white ">دکمه ها </a>
+            <a class="p-1 hover-text-white ">badge</a>
+            <a class="p-1 hover-text-white ">الارم ها</a>
+            <a class="p-1 hover-text-white ">utilities</a>
+        </ul>
+    </div>
+    <!-- ------------------------------------------navbar-------start -->
    <header>
     <div class="navbar navbar-primary">
-        <div class="navbar-brand text-orange">
-            styler
+       
+       <div class="d-flex align-items-center">
+        <div id="menuicon" class="ml-2 mr-4 hover-text-light ">
+            <span  class="material-symbols-outlined">
+                menu
+                </span>
+           </div>
+            <div class="navbar-brand text-orange">
+                styler
+            </div>
+       </div>
+       
+        <div class="d-flex align-items-center">
+            <div class="navbar-items">
+                <a href="#" class="text-black btn btn-yellow "><span class="badge badge-orange ml-1 ">v-1</span> دانلود استایلر</a>
+            </div>
+            <div  class="mr-3 ml-2 hover-text-light">
+                    <div class="nighticon">
+                        <span  class="material-symbols-outlined">
+                            brightness_3
+                            </span>
+                    </div>
+                    <div class="dayticon">
+                        <span  class="material-symbols-outlined">
+                            light_mode
+                            </span>
+                    </div>
+            </div>
+            
         </div>
-        <div class="navbar-items">
-            <a href="#" class="text-black btn btn-orange "><span class="badge badge-light ">v-1</span> دانلود استایلر</a>
-        </div>
+       
     </div>
    </header>
    <!-- ------------------------------->
@@ -23,16 +61,25 @@
     <div class="d-flex justify-content-center align-items-center mt-4 p-2 "><p class="text-primary font-5">خوش امدید</p></div>
         <div dir="rtl" class="intro">
             <h1 class="text-orange  mb-2 mr-5">استایلر چیست ؟</h1>
-            <p>باعرض سلام و درود خدمت یکایک شما 
+            <p class="bg-primary radius-5 p-3 text-light font-2 ">باعرض سلام و درود خدمت یکایک شما 
                 <br>
-                بنده در این پروژه بکمک پیش پردازنده Sass سعی در ایجاد یک لایبرری شبیه به bootstrap <br> که (هرچند بوت استرپ و یا سایر لایبری های مربوطه امکانات به مراطب بیشتری را اراِه میدهند) را داشتم 
+                بنده در این پروژه بکمک پیش پردازنده Sass سعی در ایجاد یک لایبرری شبیه به bootstrap  که (هرچند بوت استرپ و یا سایر لایبری های مربوطه امکانات به مراتب بیشتری را اراِه میدهند) را داشتم 
                 میتوانید  <br>برای این پروژه تمرینی نظرات خودتون رو با من به اشتراک بگذلرید
                 <br>
-                ممنون از توجه شماهمیشه پاینده
+                 ممنون از توجه شماهمیشه پاینده باشید
+                 <span class="badge badge-yellow m-2 text-black">mahdiproguni@gmail.com</span>
             </p>
+            <p class="alert-orange mt-3 ">
+            در این قسمت با داکیومنتیشن <span class="text-primary font-2 m-1"><استایلر></span> که بیشتر همانند بوت استرپ کلاس گذاری شده است اشنا میشویم
+            </p>
+            
 
-            <h3></h3>
+            
         </div>
    </div>
+
+
+
+   <script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+@each $key , $value in $colors {
+    .alert-#{$key}{
+        width: 60%;
+        margin: 0 auto;
+        background-color: $value;
+        font: 700;
+        border-radius: 6px;
+        padding: 15px;
+        text-align: center;
+
+    }
+}

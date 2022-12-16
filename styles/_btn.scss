@@ -14,7 +14,7 @@
     .btn-#{$key}{
         @include btn($value);
         &:hover{
-            background-color: lighten($value , 7);
+            background-color: lighten($value ,4);
         }
     }
     .btn-outline-#{$key}{
