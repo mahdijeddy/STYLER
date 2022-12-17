@@ -1,7 +1,8 @@
 .card{
     display: block;
     padding: $padding;
-    border: $border solid rgb(213, 206, 206);
+    max-width: 20rem;
+    border: 1px solid rgb(213, 206, 206);
     box-shadow: 1rem;
     border-radius: .3rem;
     .card-title{
@@ -11,13 +12,15 @@
     }
     .card-body{
         font-size: 1rem;
+        padding: 5px;
 
         a {
           text-decoration: underline;
         }
     }
     .card-footer{
-        color: rgb(215, 199, 199);
-        font-size: 1.2rem;
+        margin: 5px 0;
+        color: rgb(170, 170, 170);
+        font-size: 0.75rem;
     }
 }

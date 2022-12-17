@@ -19,7 +19,7 @@
     }
     .btn-outline-#{$key}{
         @include btn;
-        border: $border solid $value;
+        border: 1px solid $value;
         &:hover{
             background-color: $value;
         }

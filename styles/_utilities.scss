@@ -30,6 +30,18 @@
     }
 }
 @for $i from 1 through 5 {
+    .py-#{$i}{
+        padding-bottom: $i * $padding !important;
+        padding-top: $i * $padding !important;
+    }
+}
+@for $i from 1 through 5 {
+    .px-#{$i}{
+        padding-right: $i * $padding !important;
+        padding-left: $i * $padding !important;
+    }
+}
+@for $i from 1 through 5 {
     .mt-#{$i}{
         margin-top: $i * $padding !important;
     }
@@ -49,13 +61,25 @@
         margin-bottom: $i * $padding !important;
     }
 }
+@for $i from 1 through 5 {
+    .my-#{$i}{
+        margin-bottom: $i * $padding !important;
+        margin-top: $i * $padding !important;
+    }
+}
+@for $i from 1 through 5 {
+    .mx-#{$i}{
+        margin-left: $i * $padding !important;
+        margin-right: $i * $padding !important;
+    }
+}
 @for $i from 1 through 10 {
     .o-#{$i}{
         opacity: math.div($i , 10);}
 }
 @for $i from 1 through 10 {
     .radius-#{$i}{
-        border-radius: math.div($border * $i , 10);}
+        border-radius: math.div($border * $i , 10) !important;}
 }
 .rounded{
     border-radius: 50%;
