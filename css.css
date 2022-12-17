@@ -1,14 +1,41 @@
 .menuD{
 
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 6.2rem;
+    top: 4.8rem;
+    background-color: #977600;
+    opacity: 0.9;
     width: 20rem;
     height: calc(100vh - 100px);
     transition: all 0.5s;
+    z-index: 2;
+}
+.wel{
+    text-shadow: 2px  2px 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.navBar{
+    box-shadow: 0px 0.2px 10px 2px #564400;
+    background-color: #F7C001;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+  
+
+}
+.navBtn{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+
+}
+.navBtn:hover{
+    border-bottom: 1px solid
+
 }
 .menu{
-    position: absolute;
+    z-index: 2;
+    position: fixed;
     top: 6.2rem;
     width: 20rem;
     height: calc(100vh - 100px);
@@ -23,4 +50,13 @@ body{
 }
 .dayticon{
     display: none
+}
+#landingPage{
+    background-image: url(./asset/2.jpg);
+    width: 100vw;
+    transform: translateY(76px);
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 92%, 53% 100%, 0 86%);
 }

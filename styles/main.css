@@ -8,6 +8,7 @@
 .hover-text-primary:hover {
   color: rgb(144, 38, 236);
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-primary {
@@ -21,6 +22,7 @@
 .hover-text-secondary:hover {
   color: rgb(92, 92, 92);
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-secondary {
@@ -34,6 +36,7 @@
 .hover-text-info:hover {
   color: rgb(0, 225, 255);
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-info {
@@ -47,6 +50,7 @@
 .hover-text-blue:hover {
   color: #363bde;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-blue {
@@ -60,6 +64,7 @@
 .hover-text-red:hover {
   color: #f93b3b;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-red {
@@ -73,6 +78,7 @@
 .hover-text-yellow:hover {
   color: #ffff0a;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-yellow {
@@ -86,6 +92,7 @@
 .hover-text-green:hover {
   color: #0bff2c;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-green {
@@ -99,6 +106,7 @@
 .hover-text-orange:hover {
   color: #ffb52c;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-orange {
@@ -112,6 +120,7 @@
 .hover-text-black:hover {
   color: black;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-black {
@@ -125,6 +134,7 @@
 .hover-text-white:hover {
   color: white;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-white {
@@ -138,6 +148,7 @@
 .hover-text-light:hover {
   color: rgb(218, 218, 218);
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .bg-light {
@@ -253,82 +264,82 @@ a {
 }
 
 @media (min-width: 0) {
-  .col-1-s {
+  .col-1 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 6.25% !important;
   }
-  .col-2-s {
+  .col-2 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 12.5% !important;
   }
-  .col-3-s {
+  .col-3 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 18.75% !important;
   }
-  .col-4-s {
+  .col-4 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 25% !important;
   }
-  .col-5-s {
+  .col-5 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 31.25% !important;
   }
-  .col-6-s {
+  .col-6 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 37.5% !important;
   }
-  .col-7-s {
+  .col-7 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 43.75% !important;
   }
-  .col-8-s {
+  .col-8 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 50% !important;
   }
-  .col-9-s {
+  .col-9 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 56.25% !important;
   }
-  .col-10-s {
+  .col-10 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 62.5% !important;
   }
-  .col-11-s {
+  .col-11 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 68.75% !important;
   }
-  .col-12-s {
+  .col-12 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 75% !important;
   }
-  .col-13-s {
+  .col-13 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 81.25% !important;
   }
-  .col-14-s {
+  .col-14 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 87.5% !important;
   }
-  .col-15-s {
+  .col-15 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 93.75% !important;
   }
-  .col-16-s {
+  .col-16 {
     box-sizing: border-box;
     flex-grow: 0;
     width: 100% !important;

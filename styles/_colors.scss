@@ -6,6 +6,8 @@
         &:hover{
             color: $value;
             cursor: pointer;
+        transition: all 0.2s;
+
         }
     }
     .bg-#{$key}{

@@ -10,16 +10,18 @@
     <title>styler-mahdi</title>
 </head>
 <body dir="rtl">
-    <div class="menu bg-primary text-light">
+    <div class="menu text-light">
         <ul class=" d-flex flex-column ">
             <a class="p-1 hover-text-white ">مقدمه</a>
+            <a class="p-1 hover-text-white ">رنگها</a>
             <a class="p-1 hover-text-white ">کامپوننت ها</a> 
             <a class="p-1 hover-text-white ">یوتیلیتی ها</a>
+            <a class="p-1 hover-text-white ">لایه بندی</a>
         </ul>
     </div>
-    <!-- ------------------------------------------navbar-------start -->
+    <!-- ------------------------------------------navbar-start------ -->
    <header>
-    <div class="navbar navbar-primary">
+    <div class="navbar navBar">
        
        <div class="d-flex align-items-center">
         <div id="menuicon" class="ml-2 mr-4 hover-text-light ">
@@ -27,14 +29,14 @@
                 menu
                 </span>
            </div>
-            <div class="navbar-brand text-orange">
+            <div class="navbar-brand">
                 styler
             </div>
        </div>
        
         <div class="d-flex align-items-center">
             <div class="navbar-items">
-                <a href="#" class="text-black btn btn-yellow "><span class="badge badge-orange ml-1 ">v-1</span> دانلود استایلر</a>
+                <a href="#" class="navBtn"> دانلود استایلر</a>
             </div>
             <div  class="mr-3 ml-2 hover-text-light">
                     <div class="nighticon">
@@ -52,11 +54,16 @@
         </div>
        
     </div>
+    <div id="landingPage" class="mb-5">
+        <div class="d-flex justify-content-center align-items-center  p-2 ">
+            <p class="text-secondary font-4"> به <span class="text-primary font-5 wel">استایلر</span> خوش امدید </p>
+        </div>
+    </div>
    </header>
    <!-- ---------------------------------------توضیحات------->
    <div class="container">
-     <div class="d-flex justify-content-center align-items-center mt-4 p-2 "><p class="text-primary font-5">خوش امدید</p></div>
-        <div dir="rtl" class="intro mb-1">
+     
+        <div dir="rtl" class="intro ">
             <h1 class="text-orange  mb-2 mr-5">استایلر چیست ؟</h1>
             <p class="bg-primary radius-5 p-3 text-light font-2 ">باعرض سلام و درود خدمت یکایک شما 
                 <br>
@@ -66,7 +73,7 @@
                  ممنون از توجه شماهمیشه پاینده باشید
                  <span class="badge badge-yellow m-2 text-black">mahdiproguni@gmail.com</span>
             </p>
-            <p class="alert-orange mt-3 ">
+            <p class="alert-orange my-3 ">
             در این قسمت با داکیومنتیشن <span class="text-primary font-2 m-1"><استایلر></span> که بیشتر همانند بوت استرپ کلاس گذاری شده است اشنا میشویم
             </p>   
         </div>
@@ -287,6 +294,19 @@
                     <button class="btn btn-orange my-1"> بیشتر ...</button>
                     
                  </div>
+                 <div class="card bg-red my-1">
+                    <div class="card-title">
+                        عنوان
+                    </div>
+                    <div class="card-body ">
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                    </div>
+                    <button class="btn btn-white font-1 my-1"> بیشتر ...</button>
+                    
+                 </div>
                  <div class="card bg-yellow my-1 radius-8">
                     <div class="card-title">
                         عنوان
@@ -301,6 +321,23 @@
                         <button class="btn btn-red my-1"> بیشتر ...</button>
                     </div>
                     
+                 </div>
+                 <div class="card bg-secondary radius-6 ">
+                    <div class="card-title text-light d-flex justify-content-center">
+                        عنوان
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <img width="100%" src="./asset/1.jpg" alt="">
+                        </div>
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                        هر متن متناسب با محتوی در این قسمت
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"  class=" text-light font-1"> بیشتر ...</a>
+                    </div>
                  </div>
 
                 </div>
@@ -458,7 +495,7 @@
                     <li class="hover-text-red font-1 my-1"> فاصله عناصر</li>
                     <li class="hover-text-red font-1 my-1">شفافیت</li>
                     <li class="hover-text-red font-1 my-1">شعاع گوشه ها</li>
-                    <li class="hover-text-red font-1 my-1">  اندازه فونت ها</li>
+                    <li class="hover-text-red font-1 my-1">   فونت ها</li>
                 </ul>
                 <div id="marginSection my-1">
                     <p class="font-2 my-2 mx-3 text-red"> مارجین</p>
@@ -579,6 +616,7 @@
                     
                 </div>
                 <div id="fontSection">
+                    
                     <p class="font-2 my-2 mx-3 text-red">   اندازه فونت ها</p>
                      <div class="bg-light radius-4 p-1">
                        
@@ -597,11 +635,163 @@
                
                      </div>
                     
+                    <div class="my-2">
+                        <p class="my-1 font-1 text-red">
+                            قابلیت هاور
+    
+                        </p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-red">hover-text-red</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-blue">hover-text-blue</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-green">hover-text-green</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-info">hover-text-info</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-orange">hover-text-orange</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-primary">hover-text-primary</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-secondary">hover-text-secondary</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-yellow">hover-text-yellow</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-white">hover-text-white</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-light">hover-text-light</p>
+                        <p class= " p-1 bg-light m-1 font-1 hover-text-black">hover-text-black</p>
+                    </div>
+                    <hr>
+                 
+                    
                 </div>
 
 
             </div>
-            
+            <!-- ----------------------breaks----------- -->
+            <div id="gridSection">
+                <div class="d-flex justify-content-center my-2">
+                    <h2 class="text-primary">
+                        گرید بندی
+                        <hr>
+                    </h2>
+                   
+
+                </div>
+                <ul class="bg-light radius-4 p-2">
+                    <li class="hover-text-red font-1 my-1">  فلکس باکس</li>
+                    <li class="hover-text-red font-1 my-1">یریک پوینت ها</li>
+                    <li class="hover-text-red font-1 my-1">  گرید بندی</li>
+         
+                </ul>
+                <div id="flexSection">
+                    <p class="font-2 my-2 mx-3 text-red">فلکس</p>
+                    <p class="font-1 text-secondary">
+                      برای تعیین نوع نمایش یک عنصر کافیست به آن از جدول زیر کلاس مربوطه را بدهیم
+                    </p>
+                    <div class="mb-2">
+                        <p class=" py-1 text-red"><span class="badge-red text-black p-1 ">d-flex</span> : display flex</p>
+                        <p class=" py-1 text-red"><span class="badge-red text-black p-1 ">d-block</span> : display block</p>
+                        <p class=" py-1 text-red"><span class="badge-red text-black p-1 ">d-none</span> : display none</p>
+                        <p class=" py-1 text-red"><span class="badge-red text-black p-1 ">d-inline</span> : display inline</p>
+                        <p class=" py-1 text-red"><span class="badge-red text-black p-1 ">d-inline-block </span>: display inline-block</p>
+                    </div>
+                    <p  class="font-1 text-secondary mb-1">برای flex :</p>
+                    <p class="text-red font-1">: justify-content </p>
+                    <p class="text-secondary p-1">center</p>
+                    <p class="text-secondary p-1">flex-start</p>
+                    <p class="text-secondary p-1">flex-end</p>
+                    <p class="text-secondary p-1">space-around</p>
+                    <p class="text-secondary p-1">space-between</p>
+                    <p class="text-red font-1">: align-items </p>
+                    <p class="text-secondary p-1">center</p>
+                    <p class="text-secondary p-1">flex-start</p>
+                    <p class="text-secondary p-1">flex-end</p>
+                    <p class="text-secondary p-1">scretch</p>
+                    <p class="text-secondary p-1">baseline</p>
+
+                    <div id="layoutSection">
+                        <p class="font-2 my-2 mx-3 text-red">نگهدارنده اجزا یا container</p>
+                    <p class="font-1 text-secondary">
+                        با دادن کلاس <span class="text-red mx-1">container.</span> به المان هدف تمامی المانهای داخلی بصورت منظم از دیواره
+                        فاصله میگیرند
+                    </p>
+                   <div class="bg-light radius-4 p-1 my-1">
+                    &lt;div class="container" &gt;&lt;/div &gt;
+                   </div>
+                   <hr>
+
+                   <p class="font-2 my-2 mx-3 text-red"> ردیف و ستون </p>
+                   <p class="font-1 my-1 text-secondary">
+                       ایجاد یک ردیف و ستونهایی درون همان ردیف بمنظور لایه بندی
+                   </p>
+                   <span class="text-red font-2">نکته </span>
+                   <p class="my-1 font-1">
+                    هر <span class="text-red">ردیف</span> به <span class="text-red">16</span> قسمت <span class="text-red">مساوی</span> تقسیم بندی شده است 
+                    که طبق بریک پوینت های زیر میتوان در هر بریک پوینت میزان فضای اشغالی 
+                    توسط ستونهارا تعیین نمودس
+                   </p>
+
+                   <div>
+                    <table class="radius-4 p-1 my-2" style=" border: 1px solid rgb(255, 0, 98); height: 100px;width: 100%;">
+                      
+                        <tr>
+                          
+                          <td class="text-green">PB &lt; 460px</td>
+                          <td class="text-red"> 480px &lt; PB &lt;720px </td>
+                          <td class="text-info"> 720px &lt; PB &lt;960px </td>
+                          <td class="text-orange"> 960px &lt; PB &lt;1200px </td>
+                          <td class="text-primary"> 1200px &lt; PB  </td>
+                         
+                        </tr>
+                        <tr>
+                          <td class="text-green"> -- </td>
+                          <td class="text-red"> sm </td>
+                          <td class="text-info"> md </td>
+                          <td class="text-orange"> lg </td>
+                          <td class="text-primary"> lgx </td>
+                          
+                        </tr>
+                      </table>
+                      
+                   </div>
+
+                   <div class="row">
+                  
+                    
+                       <div class="col-16 bg-green   my-1 p-2">col-16 </div>
+                    <div class="col-5  my-1 bg-red p-2">col-5 </div>
+                    <div class="col-9 bg-primary  my-1 p-2">col-9 </div>
+                    <div class="col-2 bg-info  my-1 p-2">col-2 </div>
+                    <div class="col-15 bg-orange  my-1  p-2">col-15 </div>
+                    <div class="col-12 bg-yellow  my-1  p-2">col-12 </div>
+                    <div class="col-7 bg-blue  my-1  p-2">col-7 </div>
+
+                   </div>
+                   <p class="text-secondary my-2">
+                    مثلا col-BP-number
+                     که بجای عدد تا سقف 16 یکی را وارد میکنیم و المان 
+                     مربوطه در BP تعیین شده انقدر فضا را اشغال میکند
+                   </p>
+                  <div class="bg-light radius-4 p-1 my-1">
+
+                    &lt;div class="row" &gt;<br>
+                            &lt;div class="col-16" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col-5" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col-9" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col-2" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col-15" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col-12" &gt;&lt;/div &gt;<br>
+                            &lt;div class="col7-" &gt;&lt;/div &gt;<br>
+                           
+                    
+                    &lt;/div &gt; 
+                   
+                  </div>
+                   
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
        
     </div>  <!-- --------end container -->
     
