@@ -1,0 +1,138 @@
+@font-face {
+    font-family: yekan;
+    src: url('./asset/fonts/Yekan.eot');
+    src: url('asset/fonts/yekan.eot') format('eot'),
+         url('asset/fonts/yekan.woff') format('woff'),
+         url('asset/fonts/yekan.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+.menuD{
+
+    position: fixed;
+    right: 0;
+    top: 4.8rem;
+    background-color: #977600;
+    opacity: 0.9;
+    width: 20rem;
+    height: calc(100vh - 100px);
+    transition: all 0.5s;
+    z-index: 2;
+
+}
+.wel{
+    text-shadow: 2px  2px 3px;
+    padding: 10px;
+    cursor: pointer;
+    animation: welcome 3s ease 0.3s ;
+}
+.navBar{
+
+    background: linear-gradient(45deg , #f7c201 ,#f7c201) ;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    border: none;
+    transition: all 0.3s;
+
+}
+.navBtn{
+    color: rgb(255, 255, 255);
+}
+
+.menu{
+    z-index: 2;
+    position: fixed;
+    top: 6.2rem;
+    width: 20rem;
+    height: calc(100vh - 100px);
+    transition: all 0.5s;
+    transform: translateX(20rem);
+}
+body{
+    background-color: rgb(232, 237, 206);
+    font-family: yekan;
+}
+.body{
+    background-color: rgb(67, 51, 77);
+}
+.dayticon{
+    display: none
+}
+#landingPage{
+    background-image: url(./asset/2.jpg);
+    width: 100vw;
+    transform: translateY(76px);
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 92%, 53% 100%, 0 86%);
+}
+.compMenu{
+    width: 100%;
+    display: none;
+    
+    
+}
+.compMenu p{
+    line-height: 2.5rem;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+.compMenu div:hover{
+    background-color: #665000;
+    border-radius: 3px;
+
+}
+.ScrollIconsHome{
+    position: fixed;
+    top: 90vh;
+    left: 5%;
+    z-index: 5;
+    background: linear-gradient(to bottom , rgb(253, 18, 163) , rgb(178, 3, 191),rgb(69, 0, 69));
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 2px rgb(29, 0, 21);
+    height: 50px;
+    width: 50px;
+    display: none;
+    
+}
+
+.ScrollIconsTop{
+    display: none;
+    position: fixed;
+    top: 80vh;
+    left: 5%;
+    z-index: 5;
+    background: linear-gradient(to bottom , rgb(248, 196, 40) , rgb(171, 96, 15),rgb(121, 1, 1));
+    border-radius: 50%;
+    box-shadow: 0px 1px 6px 2px rgb(124, 0, 0);
+    height: 50px;
+    width: 50px;
+    
+}
+.footer{
+    
+    width: 100vw;
+    height: 20rem;
+    background:linear-gradient(to top ,#f79901,#ffad29,#f79901);
+    box-shadow: 1px -1px 5px 1px rgb(108, 108, 2);
+    margin-top: 10rem;
+}
+
+
+
+/* ------keyframs----- */
+@keyframes welcome {
+    0%{
+        transform: translateY(30rem)
+    };
+    50%{};
+    100%{};
+}

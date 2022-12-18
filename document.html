@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./styles/styler.css">
+    <link rel="stylesheet" href="./css/css.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>styler-mahdi</title>
 </head>
 <body dir="rtl">
+   
+    <div>
+        <div class="ScrollIconsHome  d-flex justify-content-center align-items-center hover-text-light">
+            <span class="material-symbols-outlined">
+                home
+                </span>
+        </div>
+       
+        <div class="ScrollIconsTop d-flex justify-content-center align-items-center hover-text-light">
+            <span class="material-symbols-outlined">
+                keyboard_double_arrow_up
+                </span>
+        </div>
+    </div>
     <div class="menu text-light">
-        <ul class=" d-flex flex-column ">
-            <a class="p-1 hover-text-white ">مقدمه</a>
-            <a class="p-1 hover-text-white ">رنگها</a>
-            <a class="p-1 hover-text-white ">کامپوننت ها</a> 
-            <a class="p-1 hover-text-white ">یوتیلیتی ها</a>
-            <a class="p-1 hover-text-white ">لایه بندی</a>
+        <ul class=" d-flex flex-column mt-1 ">
+            <a id="L1" class="p-1 hover-text-white ">مقدمه</a>
+            <a id="L2" class="p-1 hover-text-white ">رنگها</a>
+            <a id="L3" class="p-1 hover-text-white ">
+                <div class="compBtn d-flex align-items-center justify-content-space-between">
+                    کامپوننت ها
+                    <div class="d-flex mt-1">
+                        <div class="arrdown">
+                                 <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                        </div>
+                        <div class="d-none arrup">
+                            <span class="material-symbols-outlined">
+                                keyboard_arrow_up
+                            </span>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="compMenu">
+                    <div class="L31"><p >دکمه ها</p></div>
+                    <div class="L32">  <p >نشانها</p></div>
+                    <div class="L33"> <p >کارتها</p></div>
+                    <div class="L34"><p >نوار ناوبری</p></div>
+                    <div class="L35"><p >الارم ها</p></div>
+         
+                </div>
+            </a> 
+            
+            <a id="L4" class="p-1 hover-text-white ">یوتیلیتی ها</a>
+            <a id="L5" class="p-1 hover-text-white ">لایه بندی</a>
         </ul>
     </div>
     <!-- ------------------------------------------navbar-start------ -->
@@ -30,7 +70,11 @@
                 </span>
            </div>
             <div class="navbar-brand">
-                styler
+                <div>
+                    <span class="material-symbols-outlined">
+                        format_paint
+                        </span>styler
+                </div>
             </div>
        </div>
        
@@ -56,7 +100,7 @@
     </div>
     <div id="landingPage" class="mb-5">
         <div class="d-flex justify-content-center align-items-center  p-2 ">
-            <p class="text-secondary font-4"> به <span class="text-primary font-5 wel">استایلر</span> خوش امدید </p>
+            <p class="text-secondary font-4"> به <span class="text-primary font-5 wel">استایلر </span> خوش آمدید </p>
         </div>
     </div>
    </header>
@@ -155,10 +199,11 @@
             </h2>
         </div>
         <ul class="bg-light radius-4 p-2">
-            <li class="hover-text-red font-1 my-1">دکمه ها / buttons</li>
-            <li class="hover-text-red font-1 my-1"> نشانها / badges</li>
-            <li class="hover-text-red font-1 my-1">کارتها / cards</li>
-            <li class="hover-text-red font-1 my-1">نوار ناوبری / navbar</li>
+            <li class="hover-text-red L36 font-1 my-1">دکمه ها / buttons</li>
+            <li class="hover-text-red L36 font-1 my-1"> نشانها / badges</li>
+            <li class="hover-text-red L36 font-1 my-1">کارتها / cards</li>
+            <li class="hover-text-red L36 font-1 my-1">نوار ناوبری / navbar</li>
+            <li class="hover-text-red L36 font-1 my-1">الارم ها /alarms</li>
         </ul>
         <!-- ----------------------------------btn----------------- -->
         <div id="ButtonSection">
@@ -794,7 +839,10 @@
             </div>
        
     </div>  <!-- --------end container -->
-    
+ 
+    <div class="footer">
+        
+    </div>
        
    
 
